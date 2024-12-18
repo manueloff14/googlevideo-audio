@@ -25,6 +25,7 @@ def obtener_audio_url(video_id):
             'allow_unplayable_formats': True,
             'format': 'bestaudio[ext=webm]/bestaudio',
             'noplaylist': True,
+            'cookiefile': 'cookies.txt',  # Usa el archivo de cookies
         }
 
         # Extraer la URL de audio
